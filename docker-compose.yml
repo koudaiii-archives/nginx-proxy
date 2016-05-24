@@ -1,0 +1,7 @@
+nginx:
+  build: .
+  environment:
+    APP_URL: rails
+    APP_PORT: 3000
+  ports:
+    - '8000:80'
